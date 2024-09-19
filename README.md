@@ -1,4 +1,4 @@
-# Kit Robótica_BT
+# Kit Robótica Bluetooth
 
 Este kit acompanha os seguintes componentes:
 - 1x ESP32S
@@ -6,11 +6,13 @@ Este kit acompanha os seguintes componentes:
 - 1x L298N
 - 4x Jumpers Fêmea X Fêmea
 - 1x Jumper Fêmea X Macho
-
+- 1x Cabo microUSB
+  
 Para o devido funcionamento siga o circuito indicado abaixo.
 
 Circuito:
-![Circuito kit_bt](https://github.com/user-attachments/assets/8df96e30-7df4-4068-870e-aade3dddd3de)
+![Circuito kit_bt](https://github.com/user-attachments/assets/e581a6c2-ff92-47bf-b90a-26fdebba327b)
+
 
 Para utilizar o kit siga o seguinte passo a passo:
 
