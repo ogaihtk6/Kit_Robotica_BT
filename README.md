@@ -21,7 +21,8 @@ Circuito:
 
     - Antes de conectar o ESP32 ao seu computador, é necessário instalar o driver adequado para garantir que o dispositivo seja reconhecido corretamente. Você pode encontrar o driver específico para o ESP32 no seguinte link: [Instalação do Driver para ESP32 - RoboCore](https://www.robocore.net/tutoriais/instalando-driver-do-nodemcu)
     - Siga as instruções no site para baixar e instalar o driver correspondente ao seu sistema operacional.
-
+    - Caso o driver seja instalado e a porta COM do ESP ainda não aparecer identifique se o cabo possui transferencia de dados ou se apenas serve para carregamento.
+      
 2. **Conectar o ESP32 ao Computador:**
 
     - Após a instalação do driver, conecte o ESP32 ao computador usando um cabo USB. Se tudo estiver correto, o dispositivo deverá ser reconhecido e uma nova porta COM será listada no seu sistema.
