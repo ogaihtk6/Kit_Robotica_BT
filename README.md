@@ -31,7 +31,12 @@ Circuito:
 
 3. **Instale o Arduino IDE:**
 
-    - Se ainda não instalou, execute o arquivo *arduino-ide_2.3.2_Windows_64bit* diretamente da pasta do repósitorio.
+    - Se ainda não instalou, acesse o link [Download instalador arduino](https://www.arduino.cc/en/software)
+       ![download_ard_installer](https://github.com/user-attachments/assets/7ca06d14-c575-41a3-bce6-e7283615bfca)
+    - Escolha baseado no seu sistema oprecional. Caso seja windows, escolha versão 64bit.
+    - Aceite as opções pré-selecionadas pelo instalador
+    - Ao abrir a IDE recuse as opções de doação, para utilizar o software gratuitamente
+
 
 4. **Adicione a URL de Gerenciamento de Placas do ESP32:**
 
