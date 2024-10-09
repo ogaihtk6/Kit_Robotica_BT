@@ -59,37 +59,44 @@ Para instalar todas as bibliotecas necessárias, abra o Arduino IDE, vá em Sket
 
 - L298N-DC-Motor by Robojax
 
+
+### Upload do código para o ESP32
+
+7. **Baixe o arquivo presente no repositório e abra-o no Arduino IDE**
+
+8. **Selecione a placa como descrito na etapa 6 e clique na seta voltada para esquerda para realizar o upload**
+
 *Neste ponto o ESP32 deve estar ligado e com o código já carregado nele*
 
 ### Pareamento com o celular
 
-7. **Ligue o Bluetooth do celular e pareie com o ESP32 "BT_Node12"**
+9. **Ligue o Bluetooth do celular e pareie com o ESP32 "BT_Node12"**
 
 ### Download do aplicativo de controle dos motores
 
-8. **No celular, abra a loja de aplicativos e busque pelo app Arduino Bluetooth Control**
+10. **No celular, abra a loja de aplicativos e busque pelo app Arduino Bluetooth Control**
 
 ### Conexão e configuração do aplicativo com o ESP32
 
-9. **Abra o aplicativo, conecte com o BT_Node12**
+11. **Abra o aplicativo, conecte com o BT_Node12**
 
-10. **Abra a aba "Buttons & Slider"**
+12. **Abra a aba "Buttons & Slider"**
 
-11. **Clique no rostinho de robô no canto superior direito**
+13. **Clique no rostinho de robô no canto superior direito**
 
-12. **Desça até a seção BUTTONS AND SLIDER > Command buttons configuration**
+14. **Desça até a seção BUTTONS AND SLIDER > Command buttons configuration**
 
 *Coloque as letras em maiúsculo para que o controlador entenda*
 
-13. **Clique em Button A e insira a letra F *Para ir para frente*** 
+15. **Clique em Button A e insira a letra F *Para ir para frente*** 
 
-14. **Clique em Button B e insira a letra B *Para ir para trás***
+16. **Clique em Button B e insira a letra B *Para ir para trás***
 
-15. **Clique em Button B e insira a letra R *Para ir para direita***
+17. **Clique em Button B e insira a letra R *Para ir para direita***
 
-16. **Clique em Button B e insira a letra L *Para ir para esquerda***
+18. **Clique em Button B e insira a letra L *Para ir para esquerda***
 
-17. **Clique em Button B e insira a letra S *Para parar***
+19. **Clique em Button B e insira a letra S *Para parar***
 
 *Outros modos de comandos podem ser utilizados, porém configurando com as mesmas letras*
 
