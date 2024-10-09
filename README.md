@@ -13,8 +13,6 @@ Para o devido funcionamento siga o circuito indicado abaixo.
 Circuito:
 ![Circuito kit_bt](https://github.com/user-attachments/assets/e581a6c2-ff92-47bf-b90a-26fdebba327b)
 
-
-
 ### Configuração do ESP32
 
 #### Instalação do Driver para o ESP32
@@ -59,13 +57,19 @@ Circuito:
 
 Para instalar todas as bibliotecas necessárias, abra o Arduino IDE, vá em Sketch > Incluir Biblioteca > Gerenciar Bibliotecas, e procure e instale as seguintes bibliotecas:
 
-- Adafruit Unified Sensor by Adafruit
+- L298N-DC-Motor by Robojax
 
 *Neste ponto o ESP32 deve estar ligado e com o código já carregado nele*
 
+### Pareamento com o celular
+
 7 - Ligue o Bluetooth do celular e pareie com o ESP32 "BT_Node12"
 
+### Download do aplicativo de controle dos motores
+
 8 - No celular, abra a loja de aplicativos e busque pelo app Arduino Bluetooth Control
+
+### Conexão e configuração do aplicativo com o ESP32
 
 9 - Abra o aplicativo, conecte com o BT_Node12 
 
