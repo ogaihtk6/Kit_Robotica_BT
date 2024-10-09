@@ -31,32 +31,42 @@ Circuito:
 
 3. **Instale o Arduino IDE:**
 
-    - Se ainda não instalou, baixe e instale o Arduino IDE diretamente do site oficial: [Arduino - Software](https://www.arduino.cc/en/software)
+    - Se ainda não instalou, execute o arquivo *arduino-ide_2.3.2_Windows_64bit* diretamente da pasta do repósitorio.
 
 4. **Adicione a URL de Gerenciamento de Placas do ESP32:**
 
     - Abra o Arduino IDE.
     - Vá em **Arquivo > Preferências**.
+      ![arquivo](https://github.com/user-attachments/assets/547ab0b0-bf77-44ce-9d68-00aac5fdec25)
+      
     - No campo "URLs Adicionais de Gerenciadores de Placas", adicione a seguinte URL para permitir a instalação do pacote do ESP32:
 
 		```
 	  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 		```
+![preferencias](https://github.com/user-attachments/assets/ad0d9e9f-63a4-4139-88c5-40f52a4cd349)
+
+
+    
 
 5. **Instale o Pacote do ESP32:**
 
-    - Acesse **Ferramentas > Placa: > Gerenciador de Placas**.
+   - Acesse **Ferramentas > Placa: > Gerenciador de Placas**, ou pressione Ctrl+Shift+B para acessar diretamente.
     - Na barra de pesquisa, digite "ESP32".
     - Localize "esp32 by Espressif Systems" e clique em "Instalar".
+      
+		![gerenciador de placas](https://github.com/user-attachments/assets/0c3754df-67b4-447d-a1b2-0662be80621b)
 
 6. **Selecionar a Placa ESP32 e a Porta COM:**
 
     - Após a instalação do pacote, vá em **Ferramentas > Placa** e selecione o modelo do seu ESP32 na lista sob o título "NodeMCU-32S".
+	![node 32s](https://github.com/user-attachments/assets/2bcf4f41-1795-4cfc-b833-11c3b75c60fe)
+
     - Vá em **Ferramentas > Porta** e selecione a porta COM que aparece (associada ao ESP32).
 
 ### Instalação das bibliotecas necessárias no Arduino IDE
 
-Para instalar todas as bibliotecas necessárias, abra o Arduino IDE, vá em Sketch > Incluir Biblioteca > Gerenciar Bibliotecas, e procure e instale as seguintes bibliotecas:
+Para instalar todas as bibliotecas necessárias, abra o Arduino IDE, vá em Rascunho > Incluir Biblioteca > Gerenciar Bibliotecas, e procure e instale as seguintes bibliotecas:
 
 - L298N-DC-Motor by Robojax
 
