@@ -63,33 +63,33 @@ Para instalar todas as bibliotecas necessárias, abra o Arduino IDE, vá em Sket
 
 ### Pareamento com o celular
 
-7 - Ligue o Bluetooth do celular e pareie com o ESP32 "BT_Node12"
+7. **Ligue o Bluetooth do celular e pareie com o ESP32 "BT_Node12"**
 
 ### Download do aplicativo de controle dos motores
 
-8 - No celular, abra a loja de aplicativos e busque pelo app Arduino Bluetooth Control
+8. **No celular, abra a loja de aplicativos e busque pelo app Arduino Bluetooth Control**
 
 ### Conexão e configuração do aplicativo com o ESP32
 
-9 - Abra o aplicativo, conecte com o BT_Node12 
+9. **Abra o aplicativo, conecte com o BT_Node12**
 
-10 - Abra a aba "Buttons & Slider"
+10. **Abra a aba "Buttons & Slider"**
 
-11 - Clique no rostinho de robô no canto superior direito
+11. **Clique no rostinho de robô no canto superior direito**
 
-12 - Desça até a seção BUTTONS AND SLIDER > Command buttons configuration
+12. **Desça até a seção BUTTONS AND SLIDER > Command buttons configuration**
 
 *Coloque as letras em maiúsculo para que o controlador entenda*
 
-13 - Clique em Button A e insira a letra F *Para ir para frente* 
+13. **Clique em Button A e insira a letra F *Para ir para frente*** 
 
-14 - Clique em Button B e insira a letra B *Para ir para trás*
+14. **Clique em Button B e insira a letra B *Para ir para trás***
 
-15 - Clique em Button B e insira a letra R *Para ir para direita*
+15. **Clique em Button B e insira a letra R *Para ir para direita***
 
-16 - Clique em Button B e insira a letra L *Para ir para esquerda*
+16. **Clique em Button B e insira a letra L *Para ir para esquerda***
 
-17 - Clique em Button B e insira a letra S *Para parar*
+17. **Clique em Button B e insira a letra S *Para parar***
 
 *Outros modos de comandos podem ser utilizados, porém configurando com as mesmas letras*
 
